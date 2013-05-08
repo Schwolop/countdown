@@ -1,0 +1,130 @@
+/*-----------------------------------------------------------------------------------------------
+  Global Styles
+-----------------------------------------------------------------------------------------------*/
+
+* { margin: 0; padding: 0; }
+
+.hide { display: none; }
+
+.left { float: left; }
+
+.right { float: right; }
+
+.clear { clear: both; font-size: 1px; height: 1px; line-height: 1px; }
+
+/*-----------------------------------------------------------------------------------------------
+  Layout / Base Page Styling
+-----------------------------------------------------------------------------------------------*/
+
+body { background: black; font-family: "Lucida Grande", "Lucida Sans", Verdana, Arial, sans-serif; font-size: 11px; height: 100%; }
+
+a { display: block; text-decoration: none; }
+a img { border: none; }
+
+h1, h2, h3, h4, h5, h6, p, pre, blockquote, ul, ol, dl, fieldset, address { margin: 1em 0; }
+
+li, dd { margin-left:10%; }
+
+fieldset { padding: .5em; }
+
+select option { padding:0 5px; }
+
+/*-----------------------------------------------------------------------------------------------
+  Typefaces
+-----------------------------------------------------------------------------------------------*/
+
+p { font-size: 12px; margin: 0 0 1.0em 0; }
+li { font-size: 12px; }
+h2 { font-size: 24px; margin: 0 0 0.3em 0; }
+h3 { font-size: 18px; margin: 0 0 0.3em 0; }
+h4 { font-size: 18px; margin: 0; }
+h5 { font-size: 14px; margin: 0; }
+
+/*-----------------------------------------------------------------------------------------------
+  Colour
+-----------------------------------------------------------------------------------------------*/
+
+body { color: #464646; }
+a, h2, h3, h4,h5 { color: #b7b7b7; }
+
+/*-----------------------------------------------------------------------------------------------
+  Countdown
+-----------------------------------------------------------------------------------------------*/
+
+.spacer {
+	height: 1px;
+	width: 30px;
+}
+
+span.days {
+	margin-right: 20px;
+}
+
+#wrapper {
+	margin: 50px auto;
+	width: 700px;
+}
+
+#header {
+	text-align: center;
+}
+
+#footer {
+	padding-top: 300px;
+}
+
+#container{
+	margin-top: 200px;
+	position: absolute;
+}
+
+#front{
+	position:absolute;
+	top:0px;
+}
+
+#upperHalf, #upperHalfBack{
+	vertical-align:bottom;
+}
+
+#lowerHalf, #lowerHalfBack{
+	vertical-align:top;'
+}
+
+#upperHalf img{
+	position:relative;
+	height:64px;
+	vertical-align:bottom;
+	visibility:visible;
+}
+
+#lowerHalf img{
+	position:relative;
+	height:64px;
+	vertical-align:top;
+	visibility:visible;
+}
+
+#lowerHalfBack img{
+	position:relative;
+	vertical-align:top;
+}
+
+#upperHalfBack img{
+	position:relative;
+	vertical-align:bottom;
+}
+
+#daysUpLeft, #daysUpMiddle, #daysUpRight, #daysDownLeft, #daysDownMiddle, #daysDownRight,
+#daysUpLeftBack, #daysUpMiddleBack, #daysUpRightBack, #daysDownLeftBack, #daysDownMiddleBack, #daysDownRightBack,
+#hoursUpLeft, #hoursUpRight, #hoursDownLeft, #hoursDownRight,
+#hoursUpLeftBack, #hoursUpRightBack, #hoursDownLeftBack, #hoursDownRightBack,
+#minutesUpLeft, #minutesUpRight, #minutesDownLeft, #minutesDownRight,
+#minutesUpLeftBack, #minutesUpRightBack, #minutesDownLeftBack, #minutesDownRightBack,
+#secondsUpLeft, #secondsUpRight, #secondsDownLeft, #secondsDownRight,
+#secondsUpLeftBack, #secondsUpRightBack, #secondsDownLeftBack, #secondsDownRightBack{
+	width:64px;
+}
+
+#days { float: left; text-align: center; width: 196px; }
+#hours, #minutes, #seconds { float: left; text-align: center; width: 129px; }
